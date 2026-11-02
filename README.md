@@ -25,4 +25,5 @@ Because the App does not collect or transmit personal information, it is safe fo
 We may update our Privacy Policy from time to time to reflect new features or regulatory requirements. Any updates will be posted directly to this page with an updated revision date.
 
 ## 6. Contact Us
-If you have any questions or suggestions regarding this Privacy Policy, please feel free to reach out via GitHub or your preferred app support contact.
+If you have any questions or concerns regarding this Privacy Policy or the Application, you can contact us at:
+* Email: trackbossattempts@gmail.com
