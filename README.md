@@ -12,8 +12,8 @@ TrackBossAttempts operates using local device storage paired with Apple's secure
 ## 2. Media Access (Photos & Images)
 If you choose to upload a boss photo, the Application utilizes standard iOS system pickers (`PhotosPicker`). The Application does not request full photo library permissions and only accesses the specific images you explicitly select. These images remain stored locally on your device and within your private iCloud backup.
 
-## 3. Third-Party Services & Tracking
-The Application does not incorporate any third-party Software Development Kits (SDKs), advertising networks, tracking tools, or external analytics frameworks. Apple CloudKit is utilized strictly for background data synchronization. No personal data or metrics are ever sent to third-party entities or external developer servers.
+## 3. Third-Party Services & Data Requests
+The Application does not incorporate any third-party advertising networks, tracking tools, or external analytics frameworks. Apple CloudKit is utilized strictly for background data synchronization. To power the game discovery and search features, the Application queries the public RAWG.io game database API to retrieve game metadata and cover art. These search queries and requests are used solely to display game catalog information within the app and are not tied to your personal identity, tracked, or sold.
 
 ## 4. App Extensions & Widgets
 Data displayed in Home Screen or Lock Screen widgets utilizes local iOS App Groups to sync metrics directly between the main app container and the widget extension on your device. No internet connection or remote server is involved in this process.
